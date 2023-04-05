@@ -1,0 +1,193 @@
+h3, h4{
+    text-align: center;
+}
+/*
+=====================================
+        PANTALLA MOVIL - xs
+=====================================
+*/
+@media(max-width:767px) and (min-width: 491px){
+    .container{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    .col-xs-10{width: 100%;}
+    .col-xs-9{width: 90%;}
+    .col-xs-8{width: 80%;}
+    .col-xs-7{width: 100%;}
+    .col-xs-6{width: 60%;}
+    .col-xs-5{width: 50%;}
+    .col-xs-4{width: 40%;}
+    .col-xs-3{width: 100%;}
+    .col-xs-2{width: 20%;}
+    .col-xs-1{width: 10%;}
+    
+    header{
+        height: 75px;
+        border: 1px solid black;
+        background: -webkit-linear-gradient(#000 ,#0b061f , #0f0730 , #110738 ,#120052);
+        color: #fff;
+    }
+    .col-xs-10{
+        background: -webkit-linear-gradient(#120052 , #120052 , #120052 ,#391870 , #652ec7);
+        color: #fff;
+    }
+    .col-xs-10 h3{
+        text-shadow: #52fd00 1px 1px 1px;
+    }
+    .subtitle{
+        padding: 5px 0px;
+    }
+    .col-xs-7{
+        background: url(/src/fond.jpg);
+
+    }
+    header .col-dm-2{
+        height: 75px;
+        text-align: center;
+    }
+    header .col-dm-8{
+        height: 75px;
+        padding-top: 25px;
+    }
+    header .col-dm-2 .logo{
+        width: 52px;
+        height: 52px;
+    }
+    header h2{
+        text-shadow: #52fd00 1px 1px 1px;
+    }
+
+    .col-xs-3{
+        background: -webkit-linear-gradient(#652ec7, #652ec7 , #854beb , #b184fd , #fff);
+        color: white;
+        padding: 15px 100px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav ul li{
+        
+    }
+    nav ul a{
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    text-decoration: none;
+    }
+    nav ul ul{
+        height: 0px;
+        overflow: hidden;
+
+    }
+    nav ul li:hover ul{
+        height: auto;
+    }
+    nav ul li:active ul{
+        height: auto;
+    }
+
+    nav ul ul a{
+    color: #652ec7;
+    }
+}
+@media(max-width:490px){
+    .container{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .col-xs-10{width: 100%;}
+    .col-xs-9{width: 90%;}
+    .col-xs-8{width: 80%;}
+    .col-xs-7{width: 100%;}
+    .col-xs-6{width: 60%;}
+    .col-xs-5{width: 50%;}
+    .col-xs-4{width: 40%;}
+    .col-xs-3{width: 100%;}
+    .col-xs-2{width: 20%;}
+    .col-xs-1{width: 10%;}
+
+    header{
+        height: 75px;
+        border: 1px solid black;
+        background: -webkit-linear-gradient(#000 ,#0b061f , #0f0730 , #110738 ,#120052);
+        color: #fff;
+    }
+    .col-xs-10{
+        background: -webkit-linear-gradient(#120052 , #120052 , #120052 ,#391870 , #652ec7);
+        color: #fff;
+    }
+    .col-xs-10 h3{
+        text-shadow: #52fd00 1px 1px 1px;
+    }
+    .subtitle{
+        padding: 5px 0px;
+    }
+    .col-xs-7{
+        background-color: #fff;
+    }
+    header .col-dm-2{
+        height: 75px;
+        text-align: center;
+    }
+    header .col-dm-8{
+        height: 75px;
+        padding-top: 25px;
+    }
+    header .col-dm-2 .logo{
+        width: 52px;
+        height: 52px;
+    }
+    header h2{
+        text-shadow: #52fd00 1px 1px 1px;
+    }
+
+    .col-xs-3{
+        background: -webkit-linear-gradient(#652ec7, #652ec7 , #854beb , #b184fd , #fff);
+        color: white;
+        padding: 15px 100px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav ul li{
+        
+    }
+    nav ul a{
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    text-decoration: none;
+    }
+    nav ul ul{
+        height: 0px;
+        overflow: hidden;
+
+    }
+    nav ul li:hover ul{
+        height: auto;
+    }
+    nav ul li:active ul{
+        height: auto;
+    }
+
+    nav ul ul a{
+    color: #652ec7;
+    }
+}
+
